@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Daily Expense"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:id="@+id/heading1" />
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="Amount Available"
+            android:layout_below="@id/heading1"
+            android:id="@+id/one1"
+            android:padding="10dp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/one1"
+            android:layout_below="@id/heading1"
+            android:hint="Amount"
+            android:id="@+id/e1"
+            android:inputType="number" />
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="1.Food"
+            android:layout_below="@id/one1"
+            android:id="@+id/two1"
+            android:padding="10dp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/two1"
+            android:layout_below="@id/one1"
+            android:id="@+id/e2" />
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="2.Fuel"
+            android:layout_below="@id/two1"
+            android:id="@+id/three1"
+            android:padding="10dp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/three1"
+            android:layout_below="@id/two1"
+            android:id="@+id/e3" />
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="3.Entertainment"
+            android:layout_below="@id/three1"
+            android:id="@+id/four1"
+            android:padding="10dp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/four1"
+            android:layout_below="@id/three1"
+            android:id="@+id/e4" />
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="4.Fruits/Vegetables"
+            android:layout_below="@id/four1"
+            android:id="@+id/five1"
+            android:padding="10dp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/five1"
+            android:layout_below="@id/four1"
+            android:id="@+id/e5" />
+        <TextView
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:text="5.Grocery"
+            android:layout_below="@id/five1"
+            android:id="@+id/six1"
+            android:padding="10dp"
+            android:textSize="20sp"
+            />
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/six1"
+            android:layout_below="@id/five1"
+            android:id="@+id/e6" />
+        <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="6.Shopping"
+        android:layout_below="@id/six1"
+        android:id="@+id/seven1"
+        android:padding="10dp"
+        android:textSize="20sp"
+        />
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/seven1"
+            android:layout_below="@id/six1"
+            android:id="@+id/e7" />
+        <TextView
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="7.Others"
+        android:layout_below="@id/seven1"
+        android:id="@+id/eight1"
+        android:padding="10dp"
+        android:textSize="20sp"
+        />
+        <EditText
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/eight1"
+            android:layout_below="@id/seven1"
+            android:id="@+id/e8" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total"
+            android:textAlignment="center"
+            android:layout_below="@id/eight1"
+            android:id="@+id/bt1"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:layout_marginLeft="50dp"            />
+        <TextView
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/bt1"
+            android:layout_below="@id/eight1"
+            android:hint="Amount"
+            android:textSize="20dp"
+            android:layout_marginLeft="100dp"
+            android:id="@+id/rt1"
+            android:text="@string/emptyText" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Balance"
+            android:textAlignment="center"
+            android:layout_below="@id/bt1"
+            android:id="@+id/bt2"
+            android:padding="10dp"
+            android:layout_marginLeft="50dp"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:inputType="number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/bt2"
+            android:layout_below="@id/bt1"
+            android:textSize="20dp"
+            android:layout_marginLeft="80dp"
+            android:hint="Amount"
+            android:id="@+id/rt2" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but11"
+            android:layout_below="@id/bt2"
+            android:text="Save"
+            android:layout_marginLeft="50dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:layout_marginLeft="100dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignEnd="@+id/rt2"
+            android:layout_marginEnd="17dp" />
+
+    </RelativeLayout>
+
+</ScrollView>
